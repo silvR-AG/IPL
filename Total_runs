@@ -1,0 +1,15 @@
+
+"""
+import csv
+import matplotlib.pyplot as plt
+import math
+"""
+
+Matches = open('matches.csv')
+Deliv = open('deliveries.csv')
+M1 = csv.reader(Matches)
+D1 = csv.reader(Deliv)
+field1 = next(M1)
+field2 = next(D1)
+for row in M1:
+    print(row)
