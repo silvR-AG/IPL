@@ -17,9 +17,9 @@ def total_runs():
             totalRunsCount.append(sum(tot_runs[key]))
     return teamNames,totalRunsCount
 def plot(plt_teamNames,plt_runs):
-    y = plt_teamNames
-    x = plt_runs
-    plt.bar(y,x)
+    x = plt_teamNames
+    y = plt_runs
+    plt.bar(x,y)
     plt.ylabel('Total Runs')
     plt.xlabel('Team Names')
     plt.show()
